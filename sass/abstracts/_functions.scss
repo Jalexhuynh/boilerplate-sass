@@ -1,6 +1,6 @@
-// -----------------------------------------------------------------------------
-// This file contains all application-wide Sass functions.
-// -----------------------------------------------------------------------------
+/* -----------------------------------------------------------------------------
+This file contains all application-wide Sass functions.
+-----------------------------------------------------------------------------
 
 /// Native `url(..)` function wrapper
 /// @param {String} $base - base URL for the asset
@@ -28,3 +28,4 @@
 @function font($path, $base: $base-url) {
   @return asset($base, 'fonts/', $path);
 }
+*/
