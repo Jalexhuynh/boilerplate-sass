@@ -7,6 +7,7 @@
  */
 html {
   box-sizing: border-box;
+  background-color: red;
 }
 
 /**
@@ -28,8 +29,4 @@ a {
   color: $brand-color;
   text-decoration: none;
 
-  @include on-event {
-    color: $text-color;
-    text-decoration: underline;
-  }
 }
